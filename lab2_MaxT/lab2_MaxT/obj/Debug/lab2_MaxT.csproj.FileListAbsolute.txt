@@ -1,0 +1,7 @@
+C:\Users\Max\source\repos\lab2_MaxT\lab2_MaxT\bin\Debug\lab2_MaxT.exe.config
+C:\Users\Max\source\repos\lab2_MaxT\lab2_MaxT\bin\Debug\lab2_MaxT.exe
+C:\Users\Max\source\repos\lab2_MaxT\lab2_MaxT\bin\Debug\lab2_MaxT.pdb
+C:\Users\Max\source\repos\lab2_MaxT\lab2_MaxT\obj\Debug\lab2_MaxT.csprojAssemblyReference.cache
+C:\Users\Max\source\repos\lab2_MaxT\lab2_MaxT\obj\Debug\lab2_MaxT.csproj.CoreCompileInputs.cache
+C:\Users\Max\source\repos\lab2_MaxT\lab2_MaxT\obj\Debug\lab2_MaxT.exe
+C:\Users\Max\source\repos\lab2_MaxT\lab2_MaxT\obj\Debug\lab2_MaxT.pdb
