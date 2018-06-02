@@ -42,12 +42,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ArrayTypeMismatchException .cs" />
+    <Compile Include="DivideByZeroException .cs" />
     <Compile Include="Exponential.cs" />
+    <Compile Include="IndexOutOfRangeException.cs" />
+    <Compile Include="InvalidCastException.cs" />
     <Compile Include="Linear .cs" />
+    <Compile Include="My_Exeption.cs" />
+    <Compile Include="OutOfMemoryException.cs" />
+    <Compile Include="OverflowException.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Progression.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Series.cs" />
+    <Compile Include="StackOverflowExeption.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

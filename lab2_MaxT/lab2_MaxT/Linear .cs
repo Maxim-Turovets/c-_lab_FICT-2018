@@ -19,14 +19,14 @@ namespace lab2_MaxT
             this.n = n;
             this.d = d;
             mas = new double[n];
-            this.name = "Lin";
+            this.name = "Linear";
         }
 
         public override double Element(int index)
         {
             if (index > this.n-1||index<0)
             {
-                Console.WriteLine("\nError not index!!!\n"); 
+                throw new ArrayTypeMismatchException("\nError not index!!!\n");
                 return 0;
             }
             else
@@ -72,6 +72,31 @@ namespace lab2_MaxT
         {
             return this.Suma;
         }
+
+        public bool Equals(Linear obj)
+        {
+            this.n = obj.n;
+            this.d = obj.d;
+            this.name = obj.name;
+            return true;
+        }
+
+
+        public static bool operator !=(Linear obj, Linear obj2)
+        {
+            return obj.Equals(obj2);
+        }
+
+        public static bool operator == (Linear obj, Linear obj2)
+        {
+            return obj.Equals(obj2);
+        }
+
+        public override int GetHashCode()
+        {
+            return this.GetHashCode();
+        }
+
 
     }
 }

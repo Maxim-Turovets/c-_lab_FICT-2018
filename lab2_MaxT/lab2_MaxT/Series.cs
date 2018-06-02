@@ -25,7 +25,7 @@ namespace lab2_MaxT
             double sum_total= 0;
             for (int i = 0; i < this.list.Count; i++)
             {
-                if (this.list[i].name == "Lin")
+                if (this.list[i].name == "Linear")
                     Console.WriteLine("         Linear progression");
                 else
                     Console.WriteLine("         Exponential progression");
@@ -38,6 +38,26 @@ namespace lab2_MaxT
             }
 
             Console.WriteLine("\nSum Total = "+sum_total);
+        }
+
+        public List<Progression> DeepCopy( Series obj)
+        {
+            for (int i = 0; i < this.list.Count; i++)
+            {
+                obj.list.Add ( this.list[i]);
+            }
+            return obj.list;
+        }
+
+        public override string ToString()
+        {
+            Console.WriteLine("Series info:");
+            string str="";
+            for (int i = 0; i < this.list.Count; i++)
+            {
+                str += "Object("+(i+1)+")-"+ this.list[i].name+"; ";
+            }
+            return str;
         }
     }
 }

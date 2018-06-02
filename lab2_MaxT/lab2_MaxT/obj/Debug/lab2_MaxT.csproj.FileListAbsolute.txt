@@ -5,3 +5,10 @@ C:\Users\Max\source\repos\lab2_MaxT\lab2_MaxT\obj\Debug\lab2_MaxT.csprojAssembly
 C:\Users\Max\source\repos\lab2_MaxT\lab2_MaxT\obj\Debug\lab2_MaxT.csproj.CoreCompileInputs.cache
 C:\Users\Max\source\repos\lab2_MaxT\lab2_MaxT\obj\Debug\lab2_MaxT.exe
 C:\Users\Max\source\repos\lab2_MaxT\lab2_MaxT\obj\Debug\lab2_MaxT.pdb
+C:\Users\Max\Desktop\java_lab_FICT-2018\cs\lab2_MaxT\lab2_MaxT\obj\Debug\lab2_MaxT.csprojAssemblyReference.cache
+C:\Users\Max\Desktop\java_lab_FICT-2018\cs\lab2_MaxT\lab2_MaxT\obj\Debug\lab2_MaxT.csproj.CoreCompileInputs.cache
+C:\Users\Max\Desktop\java_lab_FICT-2018\cs\lab2_MaxT\lab2_MaxT\obj\Debug\lab2_MaxT.exe
+C:\Users\Max\Desktop\java_lab_FICT-2018\cs\lab2_MaxT\lab2_MaxT\obj\Debug\lab2_MaxT.pdb
+C:\Users\Max\Desktop\java_lab_FICT-2018\cs\lab2_MaxT\lab2_MaxT\bin\Debug\lab2_MaxT.exe.config
+C:\Users\Max\Desktop\java_lab_FICT-2018\cs\lab2_MaxT\lab2_MaxT\bin\Debug\lab2_MaxT.exe
+C:\Users\Max\Desktop\java_lab_FICT-2018\cs\lab2_MaxT\lab2_MaxT\bin\Debug\lab2_MaxT.pdb
