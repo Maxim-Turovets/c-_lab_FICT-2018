@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
 namespace lab2_MaxT
 {
      class Linear : Progression 
@@ -11,8 +10,6 @@ namespace lab2_MaxT
         private int n;
         private double d;
         private  double[] mas ;
-   
-
         public Linear (int n , double d)
         {
             n++;
@@ -45,10 +42,8 @@ namespace lab2_MaxT
                     Console.WriteLine("Element " + (index+1) + " = " + element);
                     return element;
                 }
-            }
-            
+            }   
         }
- 
         public override double Sum()
         {
             double sum=0;
@@ -80,8 +75,6 @@ namespace lab2_MaxT
             this.name = obj.name;
             return true;
         }
-
-
         public static bool operator !=(Linear obj, Linear obj2)
         {
             return obj.Equals(obj2);
@@ -96,7 +89,5 @@ namespace lab2_MaxT
         {
             return this.GetHashCode();
         }
-
-
     }
 }
