@@ -39,8 +39,7 @@ namespace lab1_MaxT
                 List<int> list2 = new List<int>();
             // распределение по спискам
                 addition(list1, list2, mas, n);
-
-
+            
                 bool output = conclusion(list2, mas);
             // вывод списков (если это возможно)
                 if (conclusion(list2, mas) == true)
@@ -52,10 +51,8 @@ namespace lab1_MaxT
         static void information(int[,] mas)
         {
             mas[0, 3] = 1;
-            mas[0, 2] = 1;
-         
+            mas[0, 2] = 1;     
         }
-
         static void building (int[,] mas, int n)
         {
             for (int i = 0; i < n; i++)
@@ -144,7 +141,6 @@ namespace lab1_MaxT
             }
             return yes_no;
         }
-
         static void conclusion_2(List<int>list1, List<int> list2)
         {
             Console.Write("\nDistribution of people :\n");
