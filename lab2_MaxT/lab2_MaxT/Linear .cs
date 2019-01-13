@@ -84,7 +84,6 @@ namespace lab2_MaxT
         {
             return obj.Equals(obj2);
         }
-
         public override int GetHashCode()
         {
             return this.GetHashCode();
